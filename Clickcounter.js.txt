@@ -1,0 +1,14 @@
+constBtn = document.querySelector('countBtn button');
+resetBtn = document.querySelector('resetBtn button');
+Let countNum = document.querySelector('.countNum h1')
+
+countBtn.addEventListener('click', countUp);
+ressetBtn.addEventListener('click', reset);
+
+function countUp(){
+    countNum.inner.HTML ++1;
+}
+function reset(){
+    countNum.innerHTML = 0; 
+
+}
