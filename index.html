@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>chickan </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <script>
+            function change1()
+            {
+               document.getElementById("changing_image") .innerHTML='<img src=firstmeme.jpg>';
+            }
+            function change2()
+            {
+                document.getElementById("changing_image") .innerHTML='<img src=secondmeme.jpg>';   
+            }
+            function change3()
+            {
+                document.getElementById("changing_image") .innerHTML='<img src=thirdmeme.jpg>';  
+            }
+
+        </script>
+    </head>
+    <body> 
+        <a onclick="change1()" ><button>Meme </button></a>
+        <a onclick="change2()" ><button>Another Meme </button></a>
+        <a onclick="change3()" ><button>Last meme bc i dont know any other memes </button></a>
+        <div id="changing_image"></div>
+        </body>
+</html>
